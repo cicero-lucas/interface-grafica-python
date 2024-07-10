@@ -19,6 +19,7 @@ def create_mountain(x_offset):
         mountain_vertices.append(layer_vertices)
     return mountain_vertices
 
+
 def draw_mountain(mountain_vertices, modo):
     glEnable(GL_MAP2_VERTEX_3)
     quant = len(mountain_vertices[0])

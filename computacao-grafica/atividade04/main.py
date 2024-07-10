@@ -1,4 +1,5 @@
 
+#teste
 import pygame
 import sys
 import math
@@ -8,7 +9,7 @@ pygame.init()
 # Configurando a tela
 tela_width, tela_height = 800, 800
 tela = pygame.display.set_mode((tela_width, tela_height))
-pygame.display.set_caption("Cadeia de Montanhas atividade")
+pygame.display.set_caption("Cadeia de Montanhas atividade develop")
 
 # Cor das montanhas (amarelo)
 montanhaCor = (255, 255, 0)
@@ -26,5 +27,4 @@ while True:
 
     # Desenhando montanhas
     pygame.draw.polygon(tela, montanhaCor, montanhaPontos)
-
     pygame.display.flip()
