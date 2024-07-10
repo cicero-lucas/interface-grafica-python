@@ -1,3 +1,4 @@
+
 import pygame
 import sys
 import math
@@ -17,7 +18,6 @@ for x in range(tela_width):
     y = int(300 + 100 * math.sin((x - tela_width / 2) * math.pi / 200))
     montanhaPontos.append((x, y))
 
-# Loop principal
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
