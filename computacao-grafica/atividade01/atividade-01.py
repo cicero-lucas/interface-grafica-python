@@ -6,7 +6,6 @@ from OpenGL.GLU import *
 def construir_casa(x, y, z, width, height, depth, size):
     try:
         glBegin(GL_QUADS)
-
         #frente da casa 
         glColor3f(0.5, 0.5, 0.5) 
         glVertex3f(x, y, z)
@@ -121,6 +120,3 @@ def main():
             pygame.time.wait(10)
         except:
             print("erro!")
-
-if __name__ == "__main__":
-    main()

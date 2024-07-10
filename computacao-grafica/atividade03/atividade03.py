@@ -30,10 +30,10 @@ def draw_mountain(terrain):
             glVertex3f(x, y, terrain[y][x])
             glVertex3f(x + 1, y, terrain[y][x + 1])
             glVertex3f(x, y + 1, terrain[y + 1][x])
-            
             glVertex3f(x + 1, y, terrain[y][x + 1])
             glVertex3f(x + 1, y + 1, terrain[y + 1][x + 1])
             glVertex3f(x, y + 1, terrain[y + 1][x + 1])
+            
     glEnd()
 
 def main():
