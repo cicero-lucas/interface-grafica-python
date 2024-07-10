@@ -16,7 +16,7 @@ montanhaCor = (255, 255, 0)
 montanhaPontos = []
 for x in range(tela_width):
     y = int(300 + 100 * math.sin((x - tela_width / 2) * math.pi / 200))
-    montanhaPontos.append((x, y))
+    montanhaPontos.apped((x, y))
 
 # Loop principal
 while True:

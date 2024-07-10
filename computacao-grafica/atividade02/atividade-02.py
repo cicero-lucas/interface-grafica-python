@@ -32,7 +32,7 @@ def draw_mountain(mountain_vertices, modo):
                 glVertex3fv(mountain_vertices[w + 1][t])
             glEnd()
     else:
-        glColor3fv((1, 1, 1))  # Cor branca
+        glColor3fv((1, 1, 2))  # Cor branca
         for w in range(len(mountain_vertices)):
             glBegin(GL_LINE_STRIP)
             for t in range(len(mountain_vertices[w])):
@@ -63,7 +63,7 @@ def main():
                 quit()
             elif event.type == pygame.KEYDOWN:
                 if event.key == K_RIGHT:
-                    glRotate(10, 0, 1, 0)
+                    glRotate(11, 0, 1, 0)
                 else:
                     modo = 2 if modo == 1 else 1
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
